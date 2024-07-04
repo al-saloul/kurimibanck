@@ -1,0 +1,28 @@
+{
+    "name": "al-saloul/kuraimibank-payment",
+    "description": "The description",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlSaloul\\KuraimibankPayment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed Alsaloul",
+            "email": "eng.alsaloul.mohammed@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "^9|^10|^11"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlSaloul\\KuraimibankPayment\\ServiceProvider"
+            ]
+        }
+    }
+}
