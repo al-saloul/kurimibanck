@@ -3,6 +3,7 @@
     "description": "The description",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "AlSaloul\\KuraimibankPayment\\": "src/"
@@ -16,7 +17,10 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "illuminate/support": "^9|^10|^11"
+        "illuminate/support": "^11",
+        "illuminate/http": "^11.14",
+        "illuminate/validation": "^11.14",
+        "illuminate/routing": "^11.14"
     },
     "extra": {
         "laravel": {
